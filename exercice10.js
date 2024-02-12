@@ -1,5 +1,4 @@
 // Exercice 10: Convertir une chaîne de caractères en camelCase
-
 var str = String
 var camelCase = str.prototype.camelCase = function() {
     return this.replace(/(?:^\w|[A-Z]|\b\w)/g, function(word, index) {
